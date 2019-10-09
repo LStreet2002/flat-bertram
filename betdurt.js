@@ -1,6 +1,9 @@
 
 var Input=document.getElementById('input')
 
+document.onkeypress = enter;
+function enter(e) {
+  if (e.which == 13) initialQuestion()};
 
 function initialQuestion(){
 
