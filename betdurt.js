@@ -30,5 +30,6 @@ function initialQuestion(){
       
         document.getElementById("Helpdesk").innerHTML=  text;
         document.getElementById("firstChoice").innerHTML= title
+        document.getElementById('input').value = ''
 
 }
