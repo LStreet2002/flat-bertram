@@ -31,6 +31,11 @@ function initialQuestion(){
             title = "Facts Of Life"
             document.getElementById("span").style.backgroundColor = "sandybrown";
             break;
+            case Input='':
+              text= "you know what you did...";
+              title= "You weren't supposed to do that"
+              document.getElementById("span").style.backgroundColor = "Crimson";
+              break;
       default:
         text = "I'm sorry, your vibes are rancid, Please ask for 'Comedy' or 'Business'";
         title = "Comedy Or Business"
