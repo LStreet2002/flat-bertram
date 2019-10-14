@@ -32,7 +32,7 @@ function initialQuestion(){
             document.getElementById("span").style.backgroundColor = "sandybrown";
             break;
             case Input='':
-              text= "you know what you did...";
+              text= "You know what you did...";
               title= "You weren't supposed to do that"
               document.getElementById("span").style.backgroundColor = "Crimson";
               break;
